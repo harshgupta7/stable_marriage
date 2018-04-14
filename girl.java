@@ -2,8 +2,8 @@ import java.util.Map;
 public class girl{
 
 	private int id;
-	private Map<Integer,Integer> pref;
-	private boy curr;
+	private Map<Integer,Integer> pref; //dictionary of preference mapping boy id to priority
+	private boy curr; //current partner
 
 
 	public girl(int id){
@@ -28,6 +28,9 @@ public class girl{
 	}
 
 	public int findBetter(boy b){
+
+		//method to compare two boys
+
 		if (this.curr == null){
 			return 1;
 		}

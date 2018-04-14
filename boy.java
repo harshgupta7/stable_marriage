@@ -1,9 +1,9 @@
 public class boy {
 
-	public int id;
-	public girl[] pref;
-	public int currptr;
-	public boolean hasPartner;
+	public int id; 
+	public girl[] pref; //array of preference ordered from high to low
+	public int currptr; //pointer in array pointing to current partner or current traverse point
+	public boolean hasPartner; //whether or not the object currently has partner
 
 	public boy(int id){
 		this.id = id;
@@ -14,6 +14,8 @@ public class boy {
 	}
 
 	public void findNext() throws Exception {
+
+		//method to find next available highest preference partner for the boy.
 
 		if (this.pref == null) {
 			throw new Exception("Preference must be set for this person before running algorithm");

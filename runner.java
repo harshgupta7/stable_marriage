@@ -57,14 +57,8 @@ public class runner{
 		int tm = 0;
 		while(tm==0){
 			for (boy b:runarray){
-				System.out.println(b.id);
-				System.out.println(b.currptr);
-				System.out.println(b.hasPartner);
 				try{
 					b.findNext();
-					System.out.println(b.id);
-					System.out.println(b.currptr);
-					System.out.println(b.hasPartner);
 				} catch (Exception e){
 					int ss = 0;
 				}
