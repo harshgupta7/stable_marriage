@@ -60,7 +60,7 @@ public class runner{
 				try{
 					b.findNext();
 				} catch (Exception e){
-					int ss = 0;
+					return;
 				}
 			}
 
