@@ -17,15 +17,19 @@ public class runner{
 		b1pref[2] = g3;
 
 		girl[] b2pref = new girl[3];
-		b2pref[0] = g2;
-		b2pref[1] = g3;
-		b2pref[2] = g1;
+		b2pref[0] = g1;
+		b2pref[1] = g2;
+		b2pref[2] = g3;
 
 
 		girl[] b3pref = new girl[3];
 		b3pref[0] = g3;
 		b3pref[1] = g1;
 		b3pref[2] = g2; 
+
+		b1.pref = b1pref;
+		b2.pref = b2pref;
+		b3.pref = b3pref;
 
 		Map<Integer, Integer> t = new HashMap<Integer,Integer>();
 		t.put(1,2);
@@ -58,6 +62,9 @@ public class runner{
 				System.out.println(b.hasPartner);
 				try{
 					b.findNext();
+					System.out.println(b.id);
+					System.out.println(b.currptr);
+					System.out.println(b.hasPartner);
 				} catch (Exception e){
 					int ss = 0;
 				}
