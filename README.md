@@ -1,4 +1,4 @@
 # stable_marriage
-Java Implementation of Stable Marriage Algorithm
+Java Implementation of Boy optimal Stable Marriage Algorithm. 
 
-Boy optimal implementation of stable marriage algorithm.
+See: https://en.wikipedia.org/wiki/Stable_marriage_problem#Algorithm
