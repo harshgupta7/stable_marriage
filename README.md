@@ -1,4 +1,4 @@
-# stable_marriage
+# Stable Marriage Algorithm
 
 Java Implementation of Boy optimal Stable Marriage Algorithm. 
 
