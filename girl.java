@@ -1,4 +1,5 @@
 import java.util.Map;
+
 public class girl{
 
 	private int id;
@@ -10,6 +11,10 @@ public class girl{
 		this.id = id;
 		this.pref = null;
 		this.curr = null;
+	}
+
+	public int getId(){
+		return this.id;
 	}
 
 	public boy getCurr(){
